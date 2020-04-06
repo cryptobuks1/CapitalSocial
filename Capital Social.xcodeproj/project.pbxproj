@@ -18,7 +18,6 @@
 		9C87127A243ACA120084D5D5 /* PromocionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C871279243ACA120084D5D5 /* PromocionesViewController.swift */; };
 		9C87127D243ACCE70084D5D5 /* CustomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C87127C243ACCE70084D5D5 /* CustomViewCell.swift */; };
 		9C9981B4243B8E3B0088EE10 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9981B3243B8E3B0088EE10 /* MapViewController.swift */; };
-		9C9981B6243B9CAD0088EE10 /* QRreaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9981B5243B9CAD0088EE10 /* QRreaderViewController.swift */; };
 		9CD35025243A52D700F9E88C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD35024243A52D700F9E88C /* AppDelegate.swift */; };
 		9CD35027243A52D700F9E88C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD35026243A52D700F9E88C /* SceneDelegate.swift */; };
 		9CD3502C243A52D700F9E88C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD3502A243A52D700F9E88C /* Main.storyboard */; };
@@ -40,7 +39,6 @@
 		9C871279243ACA120084D5D5 /* PromocionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromocionesViewController.swift; sourceTree = "<group>"; };
 		9C87127C243ACCE70084D5D5 /* CustomViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewCell.swift; sourceTree = "<group>"; };
 		9C9981B3243B8E3B0088EE10 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		9C9981B5243B9CAD0088EE10 /* QRreaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRreaderViewController.swift; sourceTree = "<group>"; };
 		9CD35021243A52D700F9E88C /* Capital Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Capital Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD35024243A52D700F9E88C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CD35026243A52D700F9E88C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,7 +84,6 @@
 				9C871279243ACA120084D5D5 /* PromocionesViewController.swift */,
 				9C6D6958243AE85400459BFB /* DetalleViewController.swift */,
 				9C9981B3243B8E3B0088EE10 /* MapViewController.swift */,
-				9C9981B5243B9CAD0088EE10 /* QRreaderViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -284,7 +281,6 @@
 				9C6D695F243B0AA500459BFB /* ActivityIndicator.swift in Sources */,
 				9CD35025243A52D700F9E88C /* AppDelegate.swift in Sources */,
 				9C9981B4243B8E3B0088EE10 /* MapViewController.swift in Sources */,
-				9C9981B6243B9CAD0088EE10 /* QRreaderViewController.swift in Sources */,
 				9C87127D243ACCE70084D5D5 /* CustomViewCell.swift in Sources */,
 				9C6D695D243AFE1F00459BFB /* UIColorExtension.swift in Sources */,
 				9C871272243AA24A0084D5D5 /* LoginValidator.swift in Sources */,

@@ -331,24 +331,6 @@
             </objects>
             <point key="canvasLocation" x="3922" y="110"/>
         </scene>
-        <!--Rreader View Controller-->
-        <scene sceneID="Abg-6e-AGh">
-            <objects>
-                <viewController storyboardIdentifier="scanQRstoryboard" id="08k-kc-gVx" customClass="QRreaderViewController" customModule="Capital_Social" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="UUh-Xw-sVV"/>
-                        <viewControllerLayoutGuide type="bottom" id="7uw-fA-CHK"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="9Xx-Oh-m08">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Yhu-WN-h6e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="725" y="-637"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="nLu-B3-Anw">
             <objects>
