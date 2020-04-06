@@ -3,23 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46E8F11345E49C2DA0801754 /* Pods_Capital_Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2543546C9CF938DA3AFC23CD /* Pods_Capital_Social.framework */; };
+		9C6D6959243AE85400459BFB /* DetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6D6958243AE85400459BFB /* DetalleViewController.swift */; };
+		9C6D695D243AFE1F00459BFB /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6D695C243AFE1F00459BFB /* UIColorExtension.swift */; };
+		9C6D695F243B0AA500459BFB /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6D695E243B0AA500459BFB /* ActivityIndicator.swift */; };
+		9C87126F243A95F60084D5D5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C87126E243A95F60084D5D5 /* LoginViewController.swift */; };
+		9C871272243AA24A0084D5D5 /* LoginValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C871271243AA24A0084D5D5 /* LoginValidator.swift */; };
+		9C871275243AA3EC0084D5D5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C871274243AA3EC0084D5D5 /* Constants.swift */; };
+		9C871278243AC9120084D5D5 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C871277243AC9120084D5D5 /* UIViewControllerExtension.swift */; };
+		9C87127A243ACA120084D5D5 /* PromocionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C871279243ACA120084D5D5 /* PromocionesViewController.swift */; };
+		9C87127D243ACCE70084D5D5 /* CustomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C87127C243ACCE70084D5D5 /* CustomViewCell.swift */; };
+		9C9981B4243B8E3B0088EE10 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9981B3243B8E3B0088EE10 /* MapViewController.swift */; };
+		9C9981B6243B9CAD0088EE10 /* QRreaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9981B5243B9CAD0088EE10 /* QRreaderViewController.swift */; };
 		9CD35025243A52D700F9E88C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD35024243A52D700F9E88C /* AppDelegate.swift */; };
 		9CD35027243A52D700F9E88C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD35026243A52D700F9E88C /* SceneDelegate.swift */; };
-		9CD35029243A52D700F9E88C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD35028243A52D700F9E88C /* ViewController.swift */; };
 		9CD3502C243A52D700F9E88C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD3502A243A52D700F9E88C /* Main.storyboard */; };
 		9CD3502E243A52DF00F9E88C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CD3502D243A52DF00F9E88C /* Assets.xcassets */; };
 		9CD35031243A52DF00F9E88C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD3502F243A52DF00F9E88C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BCEC5FBA32ED882FB97F6DC /* Pods-Capital Social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Capital Social.release.xcconfig"; path = "Target Support Files/Pods-Capital Social/Pods-Capital Social.release.xcconfig"; sourceTree = "<group>"; };
+		2543546C9CF938DA3AFC23CD /* Pods_Capital_Social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Capital_Social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		844D39C18AD3E3A65A7E381F /* Pods-Capital Social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Capital Social.debug.xcconfig"; path = "Target Support Files/Pods-Capital Social/Pods-Capital Social.debug.xcconfig"; sourceTree = "<group>"; };
+		9C6D6958243AE85400459BFB /* DetalleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleViewController.swift; sourceTree = "<group>"; };
+		9C6D695C243AFE1F00459BFB /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		9C6D695E243B0AA500459BFB /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		9C87126E243A95F60084D5D5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9C871271243AA24A0084D5D5 /* LoginValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidator.swift; sourceTree = "<group>"; };
+		9C871274243AA3EC0084D5D5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9C871277243AC9120084D5D5 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		9C871279243ACA120084D5D5 /* PromocionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromocionesViewController.swift; sourceTree = "<group>"; };
+		9C87127C243ACCE70084D5D5 /* CustomViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewCell.swift; sourceTree = "<group>"; };
+		9C9981B3243B8E3B0088EE10 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		9C9981B5243B9CAD0088EE10 /* QRreaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRreaderViewController.swift; sourceTree = "<group>"; };
 		9CD35021243A52D700F9E88C /* Capital Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Capital Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD35024243A52D700F9E88C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CD35026243A52D700F9E88C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9CD35028243A52D700F9E88C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9CD3502B243A52D700F9E88C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CD3502D243A52DF00F9E88C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CD35030243A52DF00F9E88C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,17 +55,83 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46E8F11345E49C2DA0801754 /* Pods_Capital_Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A7C890466F473D3291263B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				844D39C18AD3E3A65A7E381F /* Pods-Capital Social.debug.xcconfig */,
+				0BCEC5FBA32ED882FB97F6DC /* Pods-Capital Social.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		0CE9F4FA45AF91BA132A2DF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2543546C9CF938DA3AFC23CD /* Pods_Capital_Social.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C87126D243A95DE0084D5D5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C87126E243A95F60084D5D5 /* LoginViewController.swift */,
+				9C871279243ACA120084D5D5 /* PromocionesViewController.swift */,
+				9C6D6958243AE85400459BFB /* DetalleViewController.swift */,
+				9C9981B3243B8E3B0088EE10 /* MapViewController.swift */,
+				9C9981B5243B9CAD0088EE10 /* QRreaderViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9C871270243A961E0084D5D5 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9C871271243AA24A0084D5D5 /* LoginValidator.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		9C871273243AA3D90084D5D5 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				9C871274243AA3EC0084D5D5 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		9C871276243AC9010084D5D5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9C871277243AC9120084D5D5 /* UIViewControllerExtension.swift */,
+				9C6D695C243AFE1F00459BFB /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9C87127B243ACCBB0084D5D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9C87127C243ACCE70084D5D5 /* CustomViewCell.swift */,
+				9C6D695E243B0AA500459BFB /* ActivityIndicator.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		9CD35018243A52D700F9E88C = {
 			isa = PBXGroup;
 			children = (
 				9CD35023243A52D700F9E88C /* Capital Social */,
 				9CD35022243A52D700F9E88C /* Products */,
+				0A7C890466F473D3291263B1 /* Pods */,
+				0CE9F4FA45AF91BA132A2DF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +146,13 @@
 		9CD35023243A52D700F9E88C /* Capital Social */ = {
 			isa = PBXGroup;
 			children = (
+				9C87127B243ACCBB0084D5D5 /* View */,
+				9C87126D243A95DE0084D5D5 /* Controller */,
+				9C871276243AC9010084D5D5 /* Extensions */,
+				9C871273243AA3D90084D5D5 /* Constants */,
+				9C871270243A961E0084D5D5 /* Networking */,
 				9CD35024243A52D700F9E88C /* AppDelegate.swift */,
 				9CD35026243A52D700F9E88C /* SceneDelegate.swift */,
-				9CD35028243A52D700F9E88C /* ViewController.swift */,
 				9CD3502A243A52D700F9E88C /* Main.storyboard */,
 				9CD3502D243A52DF00F9E88C /* Assets.xcassets */,
 				9CD3502F243A52DF00F9E88C /* LaunchScreen.storyboard */,
@@ -74,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CD35035243A52DF00F9E88C /* Build configuration list for PBXNativeTarget "Capital Social" */;
 			buildPhases = (
+				D2A495D3270CD2F77CDCA875 /* [CP] Check Pods Manifest.lock */,
 				9CD3501D243A52D700F9E88C /* Sources */,
 				9CD3501E243A52D700F9E88C /* Frameworks */,
 				9CD3501F243A52D700F9E88C /* Resources */,
+				252187B0B2453425FACB40C2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +229,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		252187B0B2453425FACB40C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Capital Social/Pods-Capital Social-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Capital Social/Pods-Capital Social-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Capital Social/Pods-Capital Social-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2A495D3270CD2F77CDCA875 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Capital Social-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9CD3501D243A52D700F9E88C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CD35029243A52D700F9E88C /* ViewController.swift in Sources */,
+				9C871275243AA3EC0084D5D5 /* Constants.swift in Sources */,
+				9C87127A243ACA120084D5D5 /* PromocionesViewController.swift in Sources */,
+				9C87126F243A95F60084D5D5 /* LoginViewController.swift in Sources */,
+				9C6D6959243AE85400459BFB /* DetalleViewController.swift in Sources */,
+				9C871278243AC9120084D5D5 /* UIViewControllerExtension.swift in Sources */,
+				9C6D695F243B0AA500459BFB /* ActivityIndicator.swift in Sources */,
 				9CD35025243A52D700F9E88C /* AppDelegate.swift in Sources */,
+				9C9981B4243B8E3B0088EE10 /* MapViewController.swift in Sources */,
+				9C9981B6243B9CAD0088EE10 /* QRreaderViewController.swift in Sources */,
+				9C87127D243ACCE70084D5D5 /* CustomViewCell.swift in Sources */,
+				9C6D695D243AFE1F00459BFB /* UIColorExtension.swift in Sources */,
+				9C871272243AA24A0084D5D5 /* LoginValidator.swift in Sources */,
 				9CD35027243A52D700F9E88C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,11 +430,13 @@
 		};
 		9CD35036243A52DF00F9E88C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 844D39C18AD3E3A65A7E381F /* Pods-Capital Social.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NHW96578YG;
 				INFOPLIST_FILE = "Capital Social/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +450,13 @@
 		};
 		9CD35037243A52DF00F9E88C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BCEC5FBA32ED882FB97F6DC /* Pods-Capital Social.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NHW96578YG;
 				INFOPLIST_FILE = "Capital Social/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
